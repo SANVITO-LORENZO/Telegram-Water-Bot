@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: water-reminder-bot
+    runtime: python
+    branch: main
+    buildCommand: ""  # Leave empty for automatic build
+    startCommand: python main.py
+    envVars:
+      - key: TOKEN
+        value: (insert your token)
