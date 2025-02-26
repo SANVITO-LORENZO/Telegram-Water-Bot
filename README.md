@@ -100,6 +100,9 @@ Schedules messages using the JobQueue feature of python-telegram-bot
 ## 📄 .env (Environment Variables) 
 This file stores sensitive data like your Telegram bot token.
 
+save the file .env
+TOKEN=your_botfather_token_here
+
 ---
 
 ##  📄 requirements.txt (Dependencies) 
